@@ -57,7 +57,7 @@ class Scrabble
 
   def standardize_case_of(word)
     @word = word.upcase!
-    binding.pry
+    # binding.pry
     return @word
   end
 
@@ -68,8 +68,8 @@ class Scrabble
 end
 
 if __FILE__ == $0
-scrabble_game = Scrabble.new("dog")
-scrabble_game = Scrabble.new("kAMi")
-scrabble_game = Scrabble.new("insensitivE")
-scrabble_game = Scrabble.new("whatevs")
+# scrabble_game = Scrabble.new("dog")
+# scrabble_game = Scrabble.new("kAMi")
+# scrabble_game = Scrabble.new("insensitivE")
+# scrabble_game = Scrabble.new("whatevs")
 end
